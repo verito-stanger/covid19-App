@@ -6,7 +6,7 @@ url = "https://covid-193.p.rapidapi.com/statistics"
 #headers: user and rapidapi-key given by rapidapi
 headers = {
     'x-rapidapi-host': "covid-193.p.rapidapi.com",
-    'x-rapidapi-key': "98681c991fmshf6843598095047fp1b8661jsn103fbe67bddd"
+    'x-rapidapi-key': "f08d68db60msha478ddb6499576fp13ad6ajsnc74d4783af5c"
     }
 
 response = requests.request("GET", url, headers=headers).json()
